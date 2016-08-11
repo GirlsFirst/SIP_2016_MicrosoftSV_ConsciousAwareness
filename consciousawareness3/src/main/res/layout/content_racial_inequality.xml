@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.consciousawareness.RacialInequality"
+    tools:showIn="@layout/activity_racial_inequality">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                 Racial Inequality"
+                android:layout_centerHorizontal="true"
+                android:textSize="10pt"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/race"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/racialinequality"
+                android:layout_weight="0.95" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="1. African-Americans comprise  13% of the U.S. population and 14% of the monthly drug users. African Americans are 37% of the people arrested for drug-related offenses in America."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="2. In New York City, 80% of police stops made were blacks and Latinos, and 85% of those people were frisked. In New York CIty 8% of white people were stopped. After being arrested, African-Americans are 33% more likely than whites to be detained while facing a felony trial in New York."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="3. In 2010, the U.S. Sentencing Commission reported that African Americans receive 10% longer sentences than whites through the federal system for the same crimes."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="4. African Americans make up 57% of the people in state prisons for drug offenses."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="5. The U.S. Bureau of Justice Statistics concluded that an African American male born in 2001 has a 32% chance of going to jail in his lifetime, while a Latino male has a 17% chance, and a white male only has a 6% chance."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="6. In 2012, 51% of Americans expressed anti-black sentiments in a poll; a 3% increase from 2008."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="7. A survey in 2011 revealed that 52% of non-Hispanic whites expressed anti-Hispanic attitudes."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="8. Reports show that nearly 50% of Americans under 18 are minorities. The trend projects a reversal in the population where by 2030, the majority of people under 18 will be of color, and by 2042 nonwhites will be the majority of the U.S. population."/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/race1"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/racialinequalitypaper"
+                android:layout_weight="0.95" />
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comment"
+                android:inputType="text"
+                android:imeOptions="actionSend"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

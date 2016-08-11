@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.consciousawareness.AboutTheCreators">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   About the Creators"
+            android:textSize="16pt"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="272dp"
+            android:id="@+id/group"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/group"
+            android:layout_weight="0.95" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The summer of 2016 twenty strangers were brought together for a 7 week program thanks to Girls Who Code and Microsoft. With the support of our teachers and staff, we were able to gain insight into the computing world of technology. Inspired by our newly acquired skills, we chose to create an app to help others understand the different aspects of social injustices that take place around the world."
+/>
+
+        <ImageView
+            android:layout_width="172dp"
+            android:layout_height="272dp"
+            android:id="@+id/ankita"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ankita" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ankita Uppugunduri"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/editText4"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:text="I am currently a senior in high school. During my free time, I enjoy singing, programming, and giving back to my community. "
+            android:textIsSelectable="true"
+            android:textSize="12dp"
+            android:layout_above="@+id/imageView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="31dp" />
+
+        <ImageView
+            android:layout_width="172dp"
+            android:layout_height="272dp"
+            android:id="@+id/haley"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/haley" />
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haley Tran"
+            android:id="@+id/haleytxt"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/editText3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:text="I am a rising senior whose goal for this application is to provide people with all the necessary information in order to make well-informed opinions."
+            android:textSize="12dp"
+            android:layout_above="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="172dp"
+            android:layout_height="272dp"
+            android:id="@+id/hoda"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/hoda" />
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoda El Difrawy"
+            android:id="@+id/textView7"
+            android:layout_alignBaseline="@+id/editText5"
+            android:layout_alignBottom="@+id/editText5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:text="I am a rising junior who enjoys playing basketball, hiking, and meeting new people.  "
+            android:textIsSelectable="true"
+            android:textSize="12dp"
+            android:layout_above="@+id/haleytxt"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="172dp"
+            android:layout_height="272dp"
+            android:id="@+id/maryam"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/maryam" />
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:text="Maryam Khatoon"
+            android:id="@+id/textView4"
+            android:layout_alignBaseline="@+id/editText"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:text="I  am an incoming junior in high school, and I enjoy exploring a variety things such as swimming, playing water polo, meeting new people, journalism, and learning how to code."
+            android:textIsSelectable="true"
+            android:textSize="12dp"
+            android:layout_alignParentBottom="@+id/editView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="172dp"
+            android:layout_height="272dp"
+            android:id="@+id/rifa"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/rifa" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Rifa Safeer Shah"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/editText2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:text="I am going to be a senior this school year. I love being a part of are volunteering, dancing, meeting new people, artworks, and coding. With this app I want to shed light to the crucial problems that people face in our society. "
+            android:textSize="12dp"
+            android:layout_alignBottom="@+id/scrollView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_homepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.girlswhocode.consciousawareness.Homepage">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.girlswhocode.harmless.MainActivity">
+
+        <Button
+            android:id="@+id/homelessness"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Homelessness"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/genderequality"
+            android:layout_alignEnd="@+id/genderequality"
+            android:layout_marginTop="34dp"
+            android:background="#025fcc"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/genderequality"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Gender Equality"
+            android:layout_below="@+id/homelessness"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:background="#025fcc"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/guncontrol"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Gun Control"
+            android:layout_below="@+id/genderequality"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:background="#025fcc"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/racialinequality"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Racial Inequality"
+            android:layout_marginTop="43dp"
+            android:layout_below="@+id/guncontrol"
+            android:layout_alignLeft="@+id/genderequality"
+            android:layout_alignStart="@+id/genderequality"
+            android:background="#025fcc"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/animaltesting"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Animal Testing"
+            android:layout_marginTop="48dp"
+            android:layout_below="@+id/racialinequality"
+            android:layout_alignLeft="@+id/racialinequality"
+            android:layout_alignStart="@+id/racialinequality"
+            android:background="#025fcc"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
+

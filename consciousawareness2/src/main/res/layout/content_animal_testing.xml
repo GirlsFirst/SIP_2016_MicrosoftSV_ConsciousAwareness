@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.consciousawareness.AnimalTesting"
+    tools:showIn="@layout/activity_animal_testing">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                   Animal Testing"
+                android:layout_centerHorizontal="true"
+                android:textSize="10pt"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/animal"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/animaltesting"
+                android:layout_weight="0.95" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="1. Over 100 million animals are used in US labs every year."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="2. 92% of experimental drugs that are safe and effective in animals fail in human clinical trials."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="3. Labs that use mice, rats, birds, reptiles and amphibians are exempted from the minimal protections under the Animal Welfare Act (AWA."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="4. Up to 90% of animals used in U.S. labs are not counted in the official statistics of animals tested."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="5. Europe, the world's largest cosmetic market, Israel and India have banned animal testing for cosmetics, and the sale or import of newly animal-tested beauty products."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="6. Even animals that are protected under the AWA can be abused and tortured. And the law doesn't require the use of valid alternatives to animals, even if they are available."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="7. According to the Humane Society, registration of a single pesticide requires more than 50 experiments and the use of as many as 12,000 animals."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="8. In tests of potential carcinogens, subjects are given a substance every day for 2 years. Others tests involve killing pregnant animals and testing their fetuses."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="9. Alternative tests achieve one or more of the 3 R's: replaces a procedure that uses animals with a procedure that doesn't, reduces the number of animals used in a procedure, and refines a procedure to alleviate or minimize potential animal pain."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="10. Several cosmetic tests commonly performed on mice, rats, rabbits, and guinea pigs include: skin and eye irritation tests where chemicals are rubbed on shaved skin or dr-ipped into the eyes without any pain relief."/>
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comment"
+                android:inputType="text"
+                android:imeOptions="actionSend"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

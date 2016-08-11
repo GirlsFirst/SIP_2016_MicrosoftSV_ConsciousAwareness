@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.consciousawareness.GenderInequality"
+    tools:showIn="@layout/activity_gender_inequality">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Gender Inequality"
+                android:layout_centerHorizontal="true"
+                android:textSize="10pt"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/gender"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/genderinequality"
+                android:layout_weight="0.95" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="1. In 2015, half of the world’s working-age women were in the labor force, compared to 77 percent of working-age men."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="2. Women with full-time jobs earn about 77 percent of their male counterparts’ earnings."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="3. African-American women earn 64 cents and Latina women earn 56 cents for every dollar earned by a Caucasian man."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="4. 62 million girls are denied an education all over the world."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="5. Every year, an estimated 15 million girls under 18 are married worldwide, with little or no say in the matter."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="6. 4 out of 5 victims of human trafficking are girls."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="7. On average, 30 percent of women who have been in a relationship report that they have experienced some form of physical or sexual violence by their partner."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="8. Female genital mutilation (FGM) affects more than 125 million girls and women alive today."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="9. American women serving in Iraq or Afghanistan are more likely to be raped by a comrade then killed by an enemy."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="10. In Saudi Arabia, women aren't allowed to drive and are discouraged from working jobs that would put them in contact with men. The unemployment rate for women is 34 percent for women, 7 percent for men."/>
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comment"
+                android:inputType="text"
+                android:imeOptions="actionSend"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

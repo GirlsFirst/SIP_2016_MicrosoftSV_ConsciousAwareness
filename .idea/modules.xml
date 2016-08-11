@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConsciousAwareness.iml" filepath="$PROJECT_DIR$/ConsciousAwareness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about us/about us.iml" filepath="$PROJECT_DIR$/about us/about us.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consciousawareness2/consciousawareness2.iml" filepath="$PROJECT_DIR$/consciousawareness2/consciousawareness2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consciousawareness3/consciousawareness3.iml" filepath="$PROJECT_DIR$/consciousawareness3/consciousawareness3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consciousawareness4/consciousawareness4.iml" filepath="$PROJECT_DIR$/consciousawareness4/consciousawareness4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consciousawareness5/consciousawareness5.iml" filepath="$PROJECT_DIR$/consciousawareness5/consciousawareness5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consciousawareness6/consciousawareness6.iml" filepath="$PROJECT_DIR$/consciousawareness6/consciousawareness6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gun control/gun control.iml" filepath="$PROJECT_DIR$/gun control/gun control.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.consciousawareness.GunControl">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                   Gun Control"
+                android:layout_centerHorizontal="true"
+                android:textSize="10pt"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/gun"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/guncontrol"
+                android:layout_weight="0.95" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="1. Based on production data from firearm manufacturers, there are roughly 300 million firearms owned by civilians in the United States as of 2010. Of these, about 100 million are handguns."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="2. Roughly 16,272 murders were committed in the United States during 2008. Of these, about 10,886 or 67% were committed with firearms."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="3. In the 2008, 2006, 2004, 2002, and 2000 election cycles, neither gun rights nor gun control interest groups were among the top 50 interest groups donating to incumbent members of Congress."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="4. In the 2008 election cycle, gun rights groups donated $2,397,743 to federal candidates, equating to about 1% of the money donated by lawyers/law firms."/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="6pt"
+                android:text="5. In the 2008, election cycle, gun control groups donated $57,919 to federal candidates, equating to about 2% of the money donated by gun rights groups."/>
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comment"
+                android:inputType="text"
+                android:imeOptions="actionSend"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
